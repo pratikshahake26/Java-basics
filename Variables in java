@@ -1,0 +1,19 @@
+class Easy
+{
+ public void add()
+ { 
+ int a= 1; 
+ char v="c"; 
+ float b = 3.14f; 
+ double a = 3.14; 
+ int x,y=10,z=20;//declaring local variable
+ x=y+z;
+ System.out.println("Add="+x);
+ }
+ public static void main(String[] args) 
+ {
+  Easy obj=new Easy();
+  obj.add();       
+ }
+} 
+// a,v,b,a,x,y,z and add this are variables
